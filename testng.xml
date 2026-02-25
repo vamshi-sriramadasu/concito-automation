@@ -6,7 +6,7 @@
     <listeners>
         <listener class-name="listeners.TestListener"/>
     </listeners>
-<!--  
+  
     <test name="DoceoFullRegression">
 
         <classes>
@@ -19,7 +19,7 @@
         </classes>
 
     </test>
--->
+
 <test name="ScreenshotValidationRun1">
         <classes>
             <class name="tests_doceo.SampleFailTest"/>
