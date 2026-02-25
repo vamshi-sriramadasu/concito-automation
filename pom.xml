@@ -45,16 +45,7 @@
     <version>0.4.0</version>
 </dependency>
 
-		<dependency>
-			<groupId>com.qt</groupId>
-			<artifactId>PracticeSeleniumProject</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>AutomationFramework</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>com.github.javafaker</groupId>
         <artifactId>javafaker</artifactId>
