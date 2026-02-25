@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-24T18:09:47 IST" name="ConcitoAutomationSuite" finished-at="2026-02-24T18:10:12 IST" duration-ms="25248">
+    <groups>
+    </groups>
+    <test started-at="2026-02-24T18:09:47 IST" name="ScreenshotValidationRun1" finished-at="2026-02-24T18:10:01 IST" duration-ms="14855">
+      <class name="tests_doceo.SampleFailTest">
+        <test-method is-config="true" signature="add_insti()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:09:47 IST" name="add_insti" finished-at="2026-02-24T18:09:55 IST" duration-ms="8097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_insti -->
+        <test-method signature="failTestOne()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:09:55 IST" name="failTestOne" finished-at="2026-02-24T18:09:55 IST" duration-ms="47" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Wrong Title] but found [Doceo | Home 1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Wrong Title] but found [Doceo | Home 1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests_doceo.SampleFailTest.failTestOne(SampleFailTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTestOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:09:55 IST" name="tearDown" finished-at="2026-02-24T18:09:55 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="add_insti()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:09:55 IST" name="add_insti" finished-at="2026-02-24T18:10:01 IST" duration-ms="5764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_insti -->
+        <test-method signature="failTestTwo()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:10:01 IST" name="failTestTwo" finished-at="2026-02-24T18:10:01 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Force failure for screenshot expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Force failure for screenshot expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at tests_doceo.SampleFailTest.failTestTwo(SampleFailTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTestTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests_doceo.SampleFailTest@359f7cdf]" started-at="2026-02-24T18:10:01 IST" name="tearDown" finished-at="2026-02-24T18:10:01 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests_doceo.SampleFailTest -->
+    </test> <!-- ScreenshotValidationRun1 -->
+    <test started-at="2026-02-24T18:10:01 IST" name="ScreenshotValidationRun2" finished-at="2026-02-24T18:10:12 IST" duration-ms="10297">
+      <class name="tests_doceo.SampleFailTest">
+        <test-method is-config="true" signature="add_insti()[pri:0, instance:tests_doceo.SampleFailTest@4135c3b]" started-at="2026-02-24T18:10:02 IST" name="add_insti" finished-at="2026-02-24T18:10:06 IST" duration-ms="4769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_insti -->
+        <test-method signature="failTestOne()[pri:0, instance:tests_doceo.SampleFailTest@4135c3b]" started-at="2026-02-24T18:10:06 IST" name="failTestOne" finished-at="2026-02-24T18:10:06 IST" duration-ms="24" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Wrong Title] but found [Doceo | Home 1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Wrong Title] but found [Doceo | Home 1]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests_doceo.SampleFailTest.failTestOne(SampleFailTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failTestOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests_doceo.SampleFailTest@4135c3b]" started-at="2026-02-24T18:10:06 IST" name="tearDown" finished-at="2026-02-24T18:10:07 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="add_insti()[pri:0, instance:tests_doceo.SampleFailTest@4135c3b]" started-at="2026-02-24T18:10:07 IST" name="add_insti" finished-at="2026-02-24T18:10:12 IST" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_insti -->
+      </class> <!-- tests_doceo.SampleFailTest -->
+    </test> <!-- ScreenshotValidationRun2 -->
+  </suite> <!-- ConcitoAutomationSuite -->
+</testng-results>

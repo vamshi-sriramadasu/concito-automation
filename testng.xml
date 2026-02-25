@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ConcitoAutomationSuite" parallel="classes" thread-count="3">
+
+    
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+<!--  
+    <test name="DoceoFullRegression">
+
+        <classes>
+            
+            <class name="tests_doceo.Directory_test"/>
+            <class name="tests_doceo.Test_academic_year"/>
+            <class name="tests_doceo.Test_class"/>
+            <class name="tests_doceo.Test_section"/>
+            <class name="tests_doceo.Test2_parent"/>
+        </classes>
+
+    </test>
+-->
+<test name="ScreenshotValidationRun1">
+        <classes>
+            <class name="tests_doceo.SampleFailTest"/>
+        </classes>
+    </test>
+
+    <test name="ScreenshotValidationRun2">
+        <classes>
+            <class name="tests_doceo.SampleFailTest"/>
+        </classes>
+    </test>
+</suite>
